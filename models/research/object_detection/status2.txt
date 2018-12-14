@@ -1,0 +1,53 @@
+2018-03-30 15:35:10.327741: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-03-30 15:35:11.022006: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:04:00.0
+totalMemory: 11.17GiB freeMemory: 11.11GiB
+2018-03-30 15:35:11.367106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:05:00.0
+totalMemory: 11.17GiB freeMemory: 11.11GiB
+2018-03-30 15:35:11.716806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 2 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:08:00.0
+totalMemory: 11.17GiB freeMemory: 11.11GiB
+2018-03-30 15:35:12.072351: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 3 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:09:00.0
+totalMemory: 11.17GiB freeMemory: 11.11GiB
+2018-03-30 15:35:12.435747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 4 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:83:00.0
+totalMemory: 11.17GiB freeMemory: 11.11GiB
+2018-03-30 15:35:12.798681: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 5 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:84:00.0
+totalMemory: 11.17GiB freeMemory: 11.11GiB
+2018-03-30 15:35:13.175884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 6 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:87:00.0
+totalMemory: 11.17GiB freeMemory: 11.11GiB
+2018-03-30 15:35:13.558783: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 7 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:88:00.0
+totalMemory: 11.17GiB freeMemory: 11.11GiB
+2018-03-30 15:35:13.571879: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-03-30 15:35:13.572178: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 2 3 4 5 6 7 
+2018-03-30 15:35:13.572195: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y Y Y Y N N N N 
+2018-03-30 15:35:13.572203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   Y Y Y Y N N N N 
+2018-03-30 15:35:13.572210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 2:   Y Y Y Y N N N N 
+2018-03-30 15:35:13.572217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 3:   Y Y Y Y N N N N 
+2018-03-30 15:35:13.572223: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 4:   N N N N Y Y Y Y 
+2018-03-30 15:35:13.572230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 5:   N N N N Y Y Y Y 
+2018-03-30 15:35:13.572236: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 6:   N N N N Y Y Y Y 
+2018-03-30 15:35:13.572243: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 7:   N N N N Y Y Y Y 
+2018-03-30 15:35:13.572309: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0, compute capability: 3.7)
+2018-03-30 15:35:13.572323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0, compute capability: 3.7)
+2018-03-30 15:35:13.572331: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:08:00.0, compute capability: 3.7)
+2018-03-30 15:35:13.572339: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:09:00.0, compute capability: 3.7)
+2018-03-30 15:35:13.574929: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:4) -> (device: 4, name: Tesla K80, pci bus id: 0000:83:00.0, compute capability: 3.7)
+2018-03-30 15:35:13.574943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:5) -> (device: 5, name: Tesla K80, pci bus id: 0000:84:00.0, compute capability: 3.7)
+2018-03-30 15:35:13.574951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:6) -> (device: 6, name: Tesla K80, pci bus id: 0000:87:00.0, compute capability: 3.7)
+2018-03-30 15:35:13.574958: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:7) -> (device: 7, name: Tesla K80, pci bus id: 0000:88:00.0, compute capability: 3.7)
+/gpfs/scratch/asamanta/dataset/train_images/2 ../../../od-output/2
+Find 4417 images

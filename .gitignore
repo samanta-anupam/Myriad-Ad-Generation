@@ -1,0 +1,11 @@
+obj-det1/
+od-output/
+td-output/
+text-detection/
+train_images/
+models/official/
+models/samples/
+models/research/tutorials/
+models/research/pytorch_vae/
+models/research/vae
+models/research/object_detection/test_ckpt
