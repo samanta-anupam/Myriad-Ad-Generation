@@ -28,7 +28,9 @@ image layout in our auto encoder, and the decoded output will be the new correct
 
 This project is divided in the following files:
 
-Myriad Ad Generation.ipynb - Main design generation notebook
-Class Analysis.ipynb       - Class Analysis generation
-object-detection           - Google's tensorflow research model
-text-detection             - Text-detection feed forward model
+|File|Use|
+|---|---|
+|Myriad Ad Generation.ipynb|Main design generation notebook|
+|Class Analysis.ipynb|Class Analysis generation|
+|object-detection|Google's tensorflow research model|
+|text-detection|Text-detection feed forward model|
