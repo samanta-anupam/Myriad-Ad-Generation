@@ -8,7 +8,6 @@ import numpy as np
 # matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from sklearn.neighbors import NearestNeighbors
-from IPython.display import display
 from PIL import Image
 import matplotlib.pyplot as plt
 import sys
@@ -16,7 +15,9 @@ import sys
 from tqdm import tnrange, tqdm_notebook
 from helper.image_manager import ImageManager
 from pprint import pprint
-
+from ipywidgets import *
+from IPython.display import display
+from IPython.html import widgets
 # %matplotlib inline
 import math
 
@@ -225,3 +226,14 @@ def restore_and_test(test_image_manager):
         saver = tf.train.import_meta_graph(MODEL_PATH+'/model.ckpt.meta')
         saver.restore(sess, tf.train.latest_checkpoint(MODEL_PATH))
         image_test_and_plot(test_image_manager, sess, NUM_BYTES_FOR_MASK)
+        
+def get_model_tensors():
+    tf.reset_default_graph()
+    sess = tf.Session()
+      # Initialize v1 since the saver will not.
+    #   v1.initializer.run()
+    saver = tf.train.import_meta_graph(MODEL_PATH+'/model.ckpt.meta')
+    saver.restore(sess, tf.train.latest_checkpoint(MODEL_PATH))
+    return tf.get_default_graph().get_tensor_by_name("decoder:0"), tf.get_default_graph().get_tensor_by_name("input:0"), tf.get_default_graph().get_tensor_by_name("hidden:0"), sess
+
+
