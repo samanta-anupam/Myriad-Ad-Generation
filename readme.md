@@ -32,5 +32,5 @@ This project is divided in the following files:
 |---|---|
 |Myriad Ad Generation.ipynb|Main design generation notebook|
 |Class Analysis.ipynb|Class Analysis generation|
-|object-detection|Google's tensorflow research model|
-|text-detection|Text-detection feed forward model|
+|object-detection|[https://github.com/tensorflow/models/tree/master/research/object_detection](Google's tensorflow research model)|
+|text-detection|[https://github.com/argman/EAST](Text-detection feed forward model)|
