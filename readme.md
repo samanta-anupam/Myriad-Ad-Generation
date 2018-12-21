@@ -24,3 +24,11 @@ of this object layout of the ad into a smaller encoded feature vector.
 
 Hence any arrangement of object layouts at the user end, would lead to a new feature vector, where we can pass the new 
 image layout in our auto encoder, and the decoded output will be the new corrected position of the objects.     
+
+
+This project is divided in the following files:
+
+Myriad Ad Generation.ipynb - Main design generation notebook
+Class Analysis.ipynb       - Class Analysis generation
+object-detection           - Google's tensorflow research model
+text-detection             - Text-detection feed forward model
